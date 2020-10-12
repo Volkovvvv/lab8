@@ -1,0 +1,24 @@
+.container{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+body{
+    background-color: indigo;
+}
+.container > div{
+    border:10px solid gold;
+    margin-bottom: 15px;
+}
+img{
+    width: 400px;
+    
+   
+}
+h1{
+    text-align: center;
+    font-size:50px;
+    color:goldenrod;
+}
